@@ -1,0 +1,36 @@
+.search{
+
+max-width: 0 auto;
+padding: 3em 0 2.5em;
+text-align: center;
+&__input{
+    padding: .4em 1em;
+    border:none;
+    border-radius: 4px 0px 0px 4px;
+    /*font-family: fantasy;*/
+    font-size: 20px;
+    outline:none;
+    
+}
+
+&__btn{
+    background-color: var(--primary-color);
+    border-radius: 0px 4px 4px 0px;  
+    padding: .4em 1em;  
+    font-size: 20px;
+    outline:none;
+    border:none;
+ }
+
+&__error{
+    margin: 0 auto;
+    margin-top: 1.5em;
+    color: rgb(197, 11, 11);
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.829);
+    width: 30%;
+    padding: 1em;
+    
+}
+}

@@ -1,0 +1,61 @@
+.resident{
+    background-color: rgba(32, 53, 20, 0.644);
+    
+    border-radius: 10px;
+    overflow: hidden;
+   
+    &__header{
+        position: relative;
+        overflow: hidden;
+    }
+
+    &__img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.3s ease-in-out;
+    }
+    &__img:hover{
+        transform: translateY(-10px);
+    }
+    &__status{
+        position: absolute;
+        top: 1em;
+        left: 0;
+        background-image:var(--body-img);
+        backdrop-filter:blur(10px);
+        padding: .5em 3em .5em 1em;
+        border-radius: 0px 6px 6px 0px;
+    }
+    &__body{
+        padding: 1em 1em 2em;
+      }
+    &__name{
+        text-align: center;
+        color:rgb(189, 228, 51);
+        font-size: 1.25rem;
+        border-bottom: 1px solid rgba(123, 226, 240, 0.24);
+        margin-bottom: .5em;
+        padding-bottom: 1em;
+        font-weight: bold;
+    }
+      &__list{
+          list-style: none;
+          padding: 0;
+          display: flex;
+          flex-direction: column;
+          gap:.5em;
+      }
+      &__icon{
+          font-size: 16px;
+          color:VAR(--primary-color);
+          font-weight: bold;
+          
+      }
+      &__span{
+          display: block;
+          font-size:18px;
+          color:white;
+          font-weight: normal;   
+      }
+}

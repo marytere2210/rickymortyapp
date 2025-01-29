@@ -1,0 +1,41 @@
+.location{
+    text-align: center;
+    padding-bottom: 3em;
+    &__content{
+        background-color: rgba(32, 53, 20, 0.836);
+        backdrop-filter: blur(3px);
+        width: 320px;
+        padding: 2em 1.5em;
+        border-radius: 10px;
+        max-width: 400px;
+        width: 100%;
+        margin: 10px auto;
+        box-shadow: 2px 2px 35px 0px grey   
+        
+    }  
+    
+    &__name{
+       color:var(--primary-color);
+       font-size: 1.25rem; 
+       margin-bottom: 1em;
+       
+    }
+    &__ul{
+        display: flex;
+        list-style:none;
+        padding: 0px;
+        justify-content: space-between;
+        
+
+    }
+    &__ul_li{
+        color: yellow;
+
+    }
+    &__li_span{
+        display: block;
+        font-size: 15px;
+        color:antiquewhite
+    }
+    
+}
